@@ -1,0 +1,18 @@
+{
+  "name": "compendium-of-array-challenges",
+  "version": "1.0.0",
+  "description": "challenge resolution with JS & TDD (jest)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --collectCoverage=false --verbose"
+  },
+  "author": "Rudy Rojas <rudy.rs1@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^29.4.3"
+  },
+  "keywords": [
+    "challenges",
+    "javascript"
+  ]
+}

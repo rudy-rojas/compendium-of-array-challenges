@@ -9,32 +9,9 @@
 
 //Method 02
 const ageDifference = (input) => {
-  const min = Math.min(...input.map((el) => el.age));
-  const max = Math.max(...input.map((el) => el.age));
+  const min = Math.min(...input.map((el) => el.age)) | 0;
+  const max = Math.max(...input.map((el) => el.age)) | 0;
   return [min, max, max - min];
 };
 
-const input = [
-  {
-    name: 'John',
-    age: 13,
-  },
-  {
-    name: 'Mark',
-    age: 56,
-  },
-  {
-    name: 'Rachel',
-    age: 45,
-  },
-  {
-    name: 'Nate',
-    age: 67,
-  },
-  {
-    name: 'Jennifer',
-    age: 65,
-  },
-];
-
-console.log(ageDifference(input));
+module.exports = ageDifference;

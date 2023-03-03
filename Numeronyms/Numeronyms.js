@@ -6,5 +6,7 @@ const numeronyms = (str) =>
     )
     .join(' ');
 
-const input = 'Every developer likes to mix kubernetes and javascript';
+const input = 'Quis pariatur aliquip ad aliquip aliqua laboris minim aute veniam pariatur bye';
 console.log(numeronyms(input));
+
+module.exports = numeronyms;
